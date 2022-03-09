@@ -1,0 +1,28 @@
+main {
+  text-align: center;
+
+  h1 {
+    font-size: $textLarge;
+    margin: 30px 0;
+    color: $colorPrimary;
+  }
+
+  p {
+    color: $colorPrimary;
+  }
+
+  button {
+    margin-top: 50px;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s transform ease;
+    background-image: $gradient;
+    color: $colorSecodary;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
